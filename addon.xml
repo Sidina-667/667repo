@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <addon id="Sidina-667/667repo" name="667repo" version="1.0.0" provider-name="Sidina-667">
+        <requires>
+            <import addon="xbmc.addon" version="12.0.0"/>
+        </requires>
+        <extension point="xbmc.addon.repository" name="667repo">
+            <info compressed="false">https://github.com/Sidina-667/667repo/raw/main/_repo/addons.xml</info>
+            <checksum>https://github.com/Sidina-667/667repo/raw/main/_repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://github.com/Sidina-667/667repo/raw/main/_repo/</datadir>
+            <hashes>false</hashes>
+        </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>useful Kodi addons</summary>
+            <description>The description can be longer. Using [CR] you can create a newline. The use of other markup is not advised.</description>
+            <platform>all</platform>
+    </extension>
+</addon>
